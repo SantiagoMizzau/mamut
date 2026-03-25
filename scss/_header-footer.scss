@@ -1,0 +1,47 @@
+
+@use "variables" as *;
+header{
+   background-color: $color-mamut;
+   border-radius: 20px;
+   margin: 20px;
+   .titulo{
+    font-family: $tipografia-titulos;
+    font-weight: bold;
+   }
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.281);
+    writing-mode: horizontal-tb;
+    width: 100%;
+    
+    img{
+        margin: 10px;
+        width: 15rem;
+        height: 90%;
+    }
+    h2{
+        margin-top: 20px;
+        font-size: large;
+        font-family: $tipografia-titulos;
+    }
+    .datos-contacto{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 10px;
+        justify-content: center;
+        h3{
+        font-size: small;
+        font-family: $tipografia-subtitulos;
+        }
+        p{
+            font-size: small;
+            font-family: $tipografia-texto;
+        }
+
+    }   
+}

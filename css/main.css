@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+header {
+  background-color: rgba(111, 28, 27, 0.836);
+  border-radius: 20px;
+  margin: 20px;
+}
+header .titulo {
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(128, 128, 128, 0.281);
+  writing-mode: horizontal-tb;
+  width: 100%;
+}
+footer img {
+  margin: 10px;
+  width: 15rem;
+  height: 90%;
+}
+footer h2 {
+  margin-top: 20px;
+  font-size: large;
+  font-family: "Mulish", sans-serif;
+}
+footer .datos-contacto {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+  justify-content: center;
+}
+footer .datos-contacto h3 {
+  font-size: small;
+  font-family: "Forum", serif;
+}
+footer .datos-contacto p {
+  font-size: small;
+  font-family: "Overpass", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: rgb(214, 207, 203);
+}
+
+.productos h1 {
+  border-top-style: solid;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+}
+.productos h2 {
+  font-family: "Forum", serif;
+}
+.productos .tarjetas {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
