@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Forum&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
 header {
-  background: linear-gradient(90deg, rgb(234, 230, 228) 10%, rgb(159, 62, 71) 50%);
+  background: linear-gradient(90deg, rgb(249, 246, 245) 10%, rgb(159, 62, 71) 50%);
   border-radius: 20px;
   margin: 20px;
 }
@@ -25,6 +25,7 @@ footer h2 {
   margin-top: 20px;
   font-size: large;
   font-family: "Mulish", sans-serif;
+  font-weight: bold;
 }
 footer .datos-contacto {
   display: flex;
@@ -41,6 +42,11 @@ footer .datos-contacto p {
   font-size: small;
   font-family: "Overpass", sans-serif;
 }
+footer .datos-contacto a {
+  color: black;
+  text-decoration: none;
+  font-size: small;
+}
 
 * {
   margin: 0px;
@@ -50,16 +56,18 @@ footer .datos-contacto p {
 
 body {
   font-family: "Overpass", sans-serif;
-  background-color: rgb(234, 230, 228);
+  background-color: rgb(249, 246, 245);
 }
 
 .inti img {
   width: 20%;
   margin-left: 40%;
 }
+.inti h2 {
+  font-family: "Mulish", sans-serif;
+}
 
 .productos h1 {
-  border-top-style: solid;
   margin-top: 20px;
   font-weight: bold;
   font-family: "Mulish", sans-serif;
