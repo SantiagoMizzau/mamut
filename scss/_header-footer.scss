@@ -1,13 +1,15 @@
 
 @use "variables" as *;
 header{
-   background-color: $color-mamut;
+   background: linear-gradient(90deg,rgb(234, 230, 228) 10%, rgba(159, 62, 71, 1) 50%);
    border-radius: 20px;
    margin: 20px;
-   .titulo{
-    font-family: $tipografia-titulos;
-    font-weight: bold;
-   }
+    a img{
+        width:20%;
+        
+    }
+    
+   
 }
 
 footer{
@@ -20,8 +22,9 @@ footer{
     
     img{
         margin: 10px;
-        width: 15rem;
-        height: 90%;
+        width: 20rem;
+        height: 50%;
+        
     }
     h2{
         margin-top: 20px;

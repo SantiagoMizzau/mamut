@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Forum&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
 header {
-  background-color: rgba(111, 28, 27, 0.836);
+  background: linear-gradient(90deg, rgb(234, 230, 228) 10%, rgb(159, 62, 71) 50%);
   border-radius: 20px;
   margin: 20px;
 }
-header .titulo {
-  font-family: "Mulish", sans-serif;
-  font-weight: bold;
+header a img {
+  width: 20%;
 }
 
 footer {
@@ -19,8 +18,8 @@ footer {
 }
 footer img {
   margin: 10px;
-  width: 15rem;
-  height: 90%;
+  width: 20rem;
+  height: 50%;
 }
 footer h2 {
   margin-top: 20px;
@@ -51,7 +50,12 @@ footer .datos-contacto p {
 
 body {
   font-family: "Overpass", sans-serif;
-  background-color: rgb(214, 207, 203);
+  background-color: rgb(234, 230, 228);
+}
+
+.inti img {
+  width: 20%;
+  margin-left: 40%;
 }
 
 .productos h1 {
