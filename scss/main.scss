@@ -40,3 +40,28 @@ body{
         margin-bottom: 20px;
     }
 }
+.categorias{
+    margin-bottom: 0px;
+    .carousel-caption{
+        position: absolute;
+        top: 50%;
+        color:black;
+        h2{
+            font-weight: bold;
+            font-family: $tipografia-titulos;
+            font-size: 50px;
+        }
+        button{
+            background-color: $color-mamut;
+            border-radius: 10px;
+            a{
+                color: white    ;
+                text-decoration: none;
+                padding: 10px;
+            }
+        }
+    }
+}
+.categorias button :hover{
+    font-weight: bold;
+}

@@ -48,6 +48,16 @@ footer .datos-contacto a {
   font-size: small;
 }
 
+.designed {
+  background-color: rgba(128, 128, 128, 0.281);
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: gray;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -81,6 +91,33 @@ body {
   gap: 20px;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+.categorias {
+  margin-bottom: 0px;
+}
+.categorias .carousel-caption {
+  position: absolute;
+  top: 50%;
+  color: black;
+}
+.categorias .carousel-caption h2 {
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  font-size: 50px;
+}
+.categorias .carousel-caption button {
+  background-color: rgb(159, 62, 71);
+  border-radius: 10px;
+}
+.categorias .carousel-caption button a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.categorias button :hover {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
