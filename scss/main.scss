@@ -28,40 +28,64 @@ body{
         margin-top: 20px;
         font-weight: bold;
         font-family: $tipografia-titulos;
+        text-align: center;
+        padding: 30px;
     }
     h2{
         font-family: $tipografia-subtitulos;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        font-style: italic;
     }
     .tarjetas{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         gap: 20px;
         justify-content: center;
         margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .detalle-tecnico{
+        list-style-type: none;
+        text-align: start;
+        ul{
+            display: flex;
+            gap: 5px;
+            margin: 0px;
+            padding-left: 0px;
+            padding-bottom: 0px;
+        }
     }
 }
 .categorias{
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    
     .carousel-caption{
         position: absolute;
         top: 50%;
         color:black;
+    }
         h2{
             font-weight: bold;
             font-family: $tipografia-titulos;
             font-size: 50px;
         }
-        button{
-            background-color: $color-mamut;
-            border-radius: 10px;
-            a{
-                color: white    ;
-                text-decoration: none;
-                padding: 10px;
-            }
-        }
-    }
 }
-.categorias button :hover{
-    font-weight: bold;
+.conocenos{
+    h2{
+        font-family: $tipografia-titulos;
+        font-weight: bold;
+        padding: 20px;
+    }
+    p{
+        text-align: center;
+        font-style: italic;
+        background: linear-gradient(90deg,rgba(249, 246, 245, 1) 0%, rgba(128, 128, 128, 0.348) 12%, rgba(128, 128, 128, 0.342) 80%, rgba(249, 246, 245, 1) 100%);
+        padding: 20px;
+        width: 100%;
+    }
 }

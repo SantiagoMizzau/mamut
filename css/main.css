@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Forum&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+.botones {
+  background-color: rgb(159, 62, 71);
+  border-radius: 10px;
+  color: white;
+}
+.botones a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
 header {
   background: linear-gradient(90deg, rgb(249, 246, 245) 10%, rgb(159, 62, 71) 50%);
   border-radius: 20px;
@@ -24,7 +39,7 @@ footer img {
 footer h2 {
   margin-top: 20px;
   font-size: large;
-  font-family: "Mulish", sans-serif;
+  font-family: "Forum", serif;
   font-weight: bold;
 }
 footer .datos-contacto {
@@ -36,7 +51,7 @@ footer .datos-contacto {
 }
 footer .datos-contacto h3 {
   font-size: small;
-  font-family: "Forum", serif;
+  font-family: "Mulish", sans-serif;
 }
 footer .datos-contacto p {
   font-size: small;
@@ -74,50 +89,71 @@ body {
   margin-left: 40%;
 }
 .inti h2 {
-  font-family: "Mulish", sans-serif;
+  font-family: "Forum", serif;
 }
 
 .productos h1 {
   margin-top: 20px;
   font-weight: bold;
-  font-family: "Mulish", sans-serif;
+  font-family: "Forum", serif;
+  text-align: center;
+  padding: 30px;
 }
 .productos h2 {
-  font-family: "Forum", serif;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.productos p {
+  font-style: italic;
 }
 .productos .tarjetas {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
   justify-content: center;
   margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.productos .detalle-tecnico {
+  list-style-type: none;
+  text-align: start;
+}
+.productos .detalle-tecnico ul {
+  display: flex;
+  gap: 5px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
 }
 
 .categorias {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 .categorias .carousel-caption {
   position: absolute;
   top: 50%;
   color: black;
 }
-.categorias .carousel-caption h2 {
+.categorias h2 {
   font-weight: bold;
-  font-family: "Mulish", sans-serif;
+  font-family: "Forum", serif;
   font-size: 50px;
 }
-.categorias .carousel-caption button {
-  background-color: rgb(159, 62, 71);
-  border-radius: 10px;
-}
-.categorias .carousel-caption button a {
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-}
 
-.categorias button :hover {
+.conocenos h2 {
+  font-family: "Forum", serif;
   font-weight: bold;
+  padding: 20px;
+}
+.conocenos p {
+  text-align: center;
+  font-style: italic;
+  background: linear-gradient(90deg, rgb(249, 246, 245) 0%, rgba(128, 128, 128, 0.348) 12%, rgba(128, 128, 128, 0.342) 80%, rgb(249, 246, 245) 100%);
+  padding: 20px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -2,9 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-$tipografia-titulos:"Mulish", sans-serif;
-$tipografia-subtitulos:"Forum", serif;
-$tipografia-texto:"Overpass", sans-serif;
+$tipografia-titulos:"Forum", serif;
+$tipografia-subtitulos:"Mulish", sans-serif ;
+$tipografia-texto: "Overpass", sans-serif;
 $fondo:rgb(249, 246, 245);
 $color-mamut:rgba(159, 62, 71, 1);
 
+.botones{
+    background-color: $color-mamut;
+    border-radius: 10px;
+    color: white;
+    a{
+        color: white    ;
+        text-decoration: none;
+        padding: 10px;
+    }
+}
+.negrita{
+    font-weight: bold;
+}
