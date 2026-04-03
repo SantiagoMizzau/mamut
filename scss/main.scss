@@ -18,7 +18,7 @@ body{
     }
     h2{
         font-family: $tipografia-titulos;
-
+        font-weight:bold;
     }
    
 }
@@ -76,6 +76,7 @@ body{
         }
 }
 .conocenos{
+    margin-bottom: 50px;
     h2{
         font-family: $tipografia-titulos;
         font-weight: bold;
@@ -84,8 +85,86 @@ body{
     p{
         text-align: center;
         font-style: italic;
-        background: linear-gradient(90deg,rgba(249, 246, 245, 1) 0%, rgba(128, 128, 128, 0.348) 12%, rgba(128, 128, 128, 0.342) 80%, rgba(249, 246, 245, 1) 100%);
+        margin-right: 100px;
+        margin-left: 100px;
         padding: 20px;
-        width: 100%;
     }
+    
+}
+.contacto{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.whatsapp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        border-style: solid;
+        padding: 20px;
+        border-radius: 20px;
+        img{
+            width:60% ;
+            height: 5rem;
+        }
+        h2{
+            font-size: large;
+            font-weight: bold;
+            font-family: $tipografia-titulos;
+        }
+        p{  
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+}
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
+    img{
+        width: 100%;
+        height: 7rem;
+        border-radius: 20px;
+    }
+    h2{
+            font-size: large;
+            font-weight: bold;
+            font-family: $tipografia-titulos;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px; /* distancia desde abajo */
+    right: 20px;  /* distancia desde la derecha */
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.2s ease;
+}
+.whatsapp-float img {
+    width: 35px;
+    height: 35px;
+}
+.whatsapp-float:hover {
+    transform: scale(1.1);
 }
