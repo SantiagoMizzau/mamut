@@ -1,5 +1,6 @@
 
 @use "variables" as *;
+
 header{
    background: linear-gradient(90deg,rgb(249, 246, 245) 10%, rgba(159, 62, 71, 1) 50%);
    border-radius: 20px;
@@ -8,8 +9,7 @@ header{
         width:20%;
         
     }
-    
-   
+
 }
 
 footer{
