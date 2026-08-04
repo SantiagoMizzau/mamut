@@ -52,11 +52,21 @@ footer{
 }
 
 .designed{
-    background-color:rgba(128, 128, 128, 0.281) ;
+    background-color: rgba(128, 128, 128, 0.281);
     margin-bottom: 0px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 10px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 6px 10px;
+    gap: 4px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.75rem;
     color: gray;
+
+    a{
+        color: gray;
+        text-decoration: underline;
+        &:hover{
+            color: black;
+        }
+    }
 }
